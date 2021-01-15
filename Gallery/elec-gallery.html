@@ -45,6 +45,11 @@
                 flex-wrap: wrap;
                 left: 50%;
             } */
+        
+            body{
+                width: 100%!important;
+                
+            }
         @media only screen and (min-width: 600px) {
             .navbar-nav {
                 position: absolute;
@@ -159,14 +164,14 @@
         <div id="loader"></div>
     </div>
     <video style="object-fit: cover;
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         position: fixed;
         top: 0;
         opacity: 0.2;
         z-index: -1;
         left: 0;" playsinline autoplay muted loop id="bgvid">
-        <source src="bgvideo3.mp4" type="video/mp4">
+        <source src="./assets/bgvideo3.mp4" type="video/mp4">
     </video>
 
 
@@ -215,7 +220,7 @@
     <!-- </div>  -->
     <!-- .site-top -->
     <h1 class="text gallery-heading"
-        style="letter-spacing: .5rem; font-weight: bold; font-size: 2.5rem; color: #fff; position: relative; text-align: center; padding: 2rem; background-color: rgba(0,0,0,0.7);margin-top: 15vh;">
+        style="letter-spacing: .5rem; font-weight: bold; font-size: 2.5rem; color: #fff; position: relative; text-align: center; background-color: rgba(0,0,0,0.7);margin-top: 15vh;">
         <span class="text-wrapper">
             <span class="letters">ELECTROTHON</span>
             <hr style="width: 4rem;">
