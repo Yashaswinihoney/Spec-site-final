@@ -1,2 +1,2 @@
 # Spec-site-final
-WEebsite For SPEC
+Website For SPEC
